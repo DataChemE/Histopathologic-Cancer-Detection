@@ -1,6 +1,6 @@
 # Histopathologic-Cancer-Detection
 
-This is a project for the Kaggle competition "Histopathologic Cancer Detection" (https://www.kaggle.com/c/histopathologic-cancer-detection). The goal of this competition is to identify metastatic tissue in histopathologic scans of lymph node sections. The dataset consists of 220000 training images and 57000 test images, each of size 96x96 pixels. The images are labeled as 0 (no cancer) or 1 (cancer).
+This is a project for the Kaggle competition "Histopathologic Cancer Detection" (https://www.kaggle.com/c/histopathologic-cancer-detection). The goal of this competition is to identify metastatic tissue in histopathologic scans. The dataset consists of 220000 training images and 57000 test images, each of size 96x96 pixels. The images are labeled as 0 (no cancer) or 1 (cancer).
 
 Our model implemented a simplified version of the VGGnet architecture for the first model and the Resnet architecture for the second model. The models were trained on the training images and the labels provided in the `train_labels.csv` file. The models were then used to make predictions on the test images and the predictions were submitted to Kaggle for evaluation.
 
